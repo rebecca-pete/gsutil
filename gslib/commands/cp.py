@@ -81,6 +81,16 @@ _SYNOPSIS_TEXT = """
 """ + _SYNOPSIS
 
 _DESCRIPTION_TEXT = """
+
+  NOTE: For a list of permissions required for specific actions, see
+ `IAM permissions for gsutil commands <https://cloud.google.com/storage/docs/access-control/iam-gsutil>`_.
+
+  For a list of relevant roles, see
+  `Cloud Storage roles <https://cloud.google.com/storage/docs/access-control/iam-roles>`_.
+  Alternatively, you can
+  `create a custom role <https://cloud.google.com/iam/docs/creating-custom-roles>`_
+  that has specific, limited permissions.
+
 <B>DESCRIPTION</B>
   The ``gsutil cp`` command allows you to copy data between your local file
   system and the cloud, within the cloud, and between
